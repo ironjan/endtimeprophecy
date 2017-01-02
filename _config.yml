@@ -1,0 +1,10 @@
+url: http://endtimeprophecy.de
+name: Endtime Prophecy
+description: ""
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,19 @@
+---
+title: Discography
+date: 2016-12-31T00:00:00+00:00
+author: Jan
+layout: page
+---
+
+<ul>
+{% for disc in site.data.discography %}
+  <li>
+    Title: {{disc.title}}, Published: {{disc.published}}
+    <img alt="{{disc.title}} Album Cover" src="{{disc.cover}}" sizes="(max-width: 300px) 100vw, 300px">
+    <ol>
+      {% for song in disc.songs %}
+      <li>{{song}}</li>
+      {% endfor %}
+  </li>
+{% endfor %}
+</ul>
