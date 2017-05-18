@@ -1,10 +1,35 @@
-url: http://endtimeprophecy.de
-name: Endtime Prophecy
-description: ""
+### Endtime Prophecy Homepage
+
+title: Endtime Prophecy
+baseurl: ""
+# url: http://endtimeprophecy.de
+description: >
+  Endtime Prophecy - Melodic Death from Hof/Saale
+
 markdown: kramdown
-theme: minima
+excerpt_separator: <!--more-->
+future: false
+permalink: /:year/:month/:day/:title.html
+
+compress_html:
+  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
+  comments: ["<!-- ", " -->"]
+  endings: [all]
+  ignore:
+    envs: [local]
+  blanklines: false
+  profile: false
+  startings: []
+  
+
+sass:
+ style: compressed
+
+exclude:
+- README.md
+
 gems:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
