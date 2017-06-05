@@ -1,0 +1,19 @@
+<!-- TODO compute coverPath from title -->
+{% capture coverPath %}{{ disc.cover }}{% endcapture %}
+
+<section class="disc">
+  <header><h2>{{ disc.title }} ({{ disc.published }})</h2></header>
+
+  <div class="discInfo">
+    <img alt="{{disc.title}} Album Cover" src="{{ coverPath }}" sizes="(max-width: 300px) 100vw, 300px">
+  </div>
+  
+  <div class="discInfo">
+    <!-- TODO Replace this with drop down or hover effect? -->
+    <ol>
+      {% for song in disc.songs %}
+        <li>{{song}}</li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>

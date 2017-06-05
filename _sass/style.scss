@@ -178,3 +178,17 @@ blockquote {
         opacity: 0.9;
     }
 }
+
+.disc {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    header {
+        padding: 0;
+    }
+}
+.discInfo {
+    display: inline-block;
+    height: 100%;
+    float: left;
+}
