@@ -179,7 +179,7 @@ blockquote {
     }
 }
 
-.disc {
+.show, .disc, .dataListing {
     clear: both;
     display: inline-block;
     width: 100%;
@@ -187,8 +187,12 @@ blockquote {
         padding: 0;
     }
 }
-.discInfo {
+.showInfo, .discInfo, .dataListingContent, .dataListingMeta {
     display: inline-block;
-    height: 100%;
     float: left;
+    max-width: 300px;
+}
+
+.dataListingMeta {
+    align: right;
 }

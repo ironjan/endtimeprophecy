@@ -1,0 +1,26 @@
+{% assign readableDate = show.date | date: '%d %B %Y' %}
+
+{% unless show.hidden %}
+<section class="dataListing">
+  <header>
+    <h2>{{ show.title }} ({{ readableDate }})</h2>
+    {% if show.locationUrl %}
+      <a href="{{ show.locationUrl }}">{{ show.location }}</a>
+    {% else %}
+      {{ show.location }}
+    {% endif %}
+  </header>
+
+  <div class="dataListingContent">
+    {% if show.image %}
+      {% capture imagePath %}/images/shows/{{ show.image }}{% endcapture %}
+      <img src="{{ imagePath }}" />
+    {% endif %}
+  </div>
+  
+  <div class="dataListingContent dataListingMeta">
+    {{ show.description }}
+  </div>
+
+</section>
+{% endunless %}

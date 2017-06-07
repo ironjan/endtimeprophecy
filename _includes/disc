@@ -1,14 +1,14 @@
 <!-- TODO compute coverPath from title -->
 {% capture coverPath %}{{ disc.cover }}{% endcapture %}
 
-<section class="disc">
+<section class="dataListing">
   <header><h2>{{ disc.title }} ({{ disc.published }})</h2></header>
 
-  <div class="discInfo">
+  <div class="dataListingContent">
     <img alt="{{disc.title}} Album Cover" src="{{ coverPath }}" sizes="(max-width: 300px) 100vw, 300px">
   </div>
   
-  <div class="discInfo">
+  <div class="dataListingContent dataListingMeta">
     <!-- TODO Replace this with drop down or hover effect? -->
     <ol>
       {% for song in disc.songs %}
