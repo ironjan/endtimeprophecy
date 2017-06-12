@@ -3,7 +3,7 @@
 {% unless show.hidden %}
 <section class="dataListing">
   <header>
-    <h2>{{ show.title }} ({{ readableDate }})</h2>
+    <h2>{{ show.title }} {% if show.date %}({{ readableDate }}){% endif %}</h2>
     {% if show.locationUrl %}
       <a href="{{ show.locationUrl }}">{{ show.location }}</a>
     {% else %}
