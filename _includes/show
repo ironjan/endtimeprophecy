@@ -13,7 +13,7 @@
 
   <div class="dataListingContent">
     {% if show.image %}
-      {% capture imagePath %}{{ site.baseurl }}/images/shows/{{ show.image }}{% endcapture %}
+      {% capture imagePath %}images/shows/{{ show.image }}{% endcapture %}
       <img src="{{ imagePath }}" />
     {% endif %}
   </div>

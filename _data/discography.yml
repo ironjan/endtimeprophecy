@@ -5,7 +5,7 @@
 ###
 - title: Cast Away
   published: 2013-03-09
-  cover: /images/discography/cast_away.jpg
+  cover: images/discography/cast_away.jpg
   songs:
     - Drowning (instr.)
     - Cast Away
@@ -19,7 +19,7 @@
 
 - title: Dead Society
   published: 2009-09-01
-  cover: /images/discography/dead_society.jpg
+  cover: images/discography/dead_society.jpg
   songs:
     - Martyr’s March
     - Blood Of A Dying Man
