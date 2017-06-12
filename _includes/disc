@@ -1,5 +1,5 @@
 <!-- TODO compute coverPath from title -->
-{% capture coverPath %}{{ disc.cover }}{% endcapture %}
+{% capture coverPath %}{{ site.baseurl }}{{ disc.cover }}{% endcapture %}
 
 <section class="dataListing">
   <header><h2>{{ disc.title }} ({{ disc.published }})</h2></header>
