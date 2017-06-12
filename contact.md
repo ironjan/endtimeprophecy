@@ -5,3 +5,6 @@ author: Jan
 layout: page
 ---
 
+You can contact us by sending a mail to [lippertsjan+endtimeprophecy@gmail.com](lippertsjan+endtimeprophecy@gmail.com)
+or by sending us a message via our [Facebook Page](https://www.facebook.com/endtimeprophecy/).
+
