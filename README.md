@@ -1,5 +1,7 @@
 # Endtime Prophecy Homepage
 
+[Link to page](http://ironjan.github.io/endtimeprophecy)
+
 ## New SCSS files
 
 These need to be imported in css/main.scss
@@ -12,3 +14,4 @@ These need to be imported in css/main.scss
 ## Theme
 
 The theme is based on [hagura](http://webjeda.com/hagura/).
+
